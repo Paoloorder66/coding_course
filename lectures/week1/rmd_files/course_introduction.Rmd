@@ -1,0 +1,77 @@
+---
+title: "Course Introduction: GSND 5340Q"
+subtitle: "High Throughput Biomedical Data Analysis (BMDA)"
+author: | 
+  | W. Evan Johnson, Ph.D.
+  | Professor, Division of Infectious Disease
+  | Director, Center for Data Science
+  | Rutgers University -- New Jersey Medical School
+  | w.evan.johnson@rutgers.edu
+date: "2024-04-22"
+header-includes:
+   - \usepackage{amsmath}
+output: 
+  beamer_presentation:
+    theme: "CambridgeUS"
+editor_options: 
+  chunk_output_type: console
+tables: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+img_path <- "figs/"
+```
+
+## 
+\begin{center}
+{\Huge\bf Introductions!}
+\end{center}
+
+## 
+
+![](figs/rutgers_utah.png)
+
+## 
+
+![](figs/so_utah_1.png)
+
+## 
+
+![](figs/red_rock.png)
+
+## 
+
+![](figs/so_utah_2.png)
+Go to [https://www.redrockdatascience.com](https://www.redrockdatascience.com)
+
+
+## Things you should know about this course
+
+* PLease fill out the following survey: [https://forms.gle/XSPjJjMsUa9EWXo2A](https://forms.gle/XSPjJjMsUa9EWXo2A)
+* Zoom: 
+    + [Click here for the Zoom link](https://rutgers.zoom.us/j/91292744505?pwd=L1RCWHBkQXdZTkQ5T0g4SWpIYXJIdz09)
+* GitHub:
+    + [https://github.com/wevanjohnson/2024_Spring_BDMA](https://github.com/wevanjohnson/2024_Spring_BDMA)
+* [Link to Syllabus](https://github.com/wevanjohnson/2024_Spring_BDMA/blob/main/BiomedicalDataScience_Syllabus.docx)
+* Lots of diverse material
+    + Not a spectator sport!
+* Learning to program in R is a requirement of this course. 
+
+## Analytics Hierarchy
+\begin{center}		
+	\includegraphics[height=3in]{figs/dataflow1}
+\end{center}
+
+## Analytics Hierarchy
+\begin{center}		
+	\includegraphics[height=3in]{figs/dataflow2}
+\end{center}
+
+
+## Session info
+\tiny
+```{r session info}
+sessionInfo()
+```
+
